@@ -1,0 +1,273 @@
+/*<!-------------------------paso3 ----------------------------->*/
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Estilo Menú */
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+a {
+  color: #F5657B;
+  text-decoration: none;
+}
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+p {
+  margin: 10px 0;
+}
+/* Clases Generales */
+/* container mantendrá el contenido centrado y con un máximo de ancho */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+ /* Navbar */
+ #navbar {
+   background:#F1ADBF ;/* cambio color */
+   color: #430F78;/* cambio de letra primera pag asta abajo */
+   overflow: auto;
+ }
+#navbar a {
+  color: #430F78;
+}
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar ul li{
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+ /* para que pinte diferente una parte del menu*/
+#navbar ul li a.current {
+  border-color: #3d8e33;
+  background: #FFF;
+  color: #4944AE;/* cambio color de letras titulo*/
+
+}
+
+/*------<!--Paso 5--> */
+.text-primary {
+  color:#DA1936;/*------<!--camcia color de letras de fime--> */
+}
+
+.lead {
+  font-size: 23px;/*------<!--tamaño letras de fime--> */
+}
+
+.btn {
+  display: inline-block;
+  font-size: 19px;
+  color: #4944AE;/*------<!--letras del recuadro--> */
+  background: #EC9EAA;/*------<!--color del recuadro--> */
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #F5657B;
+}
+
+
+
+/* Paso 6 Bienvenida */
+
+#welcome {
+   background: url('../imagenes/dance-15.jpg') no-repeat center center/cover;
+  height:800px;/*imagen principal*/
+}
+
+#welcome .welcome-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#welcome .welcome-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#welcome .welcome-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+/*----- pASO 8 */
+.btn-light {
+  background: #EB295E;/*color del recuadro chico*/
+  color: #681421;/*color  letras recuadro chico*/
+}
+
+.bg-dark {
+  background: #F1ADBF;/*color del recuadro grande */
+  color: #681421;/*color de la letra*/
+}
+
+.bg-light {
+  background:#CC6F88;
+  color: #F1ADBF;
+}
+
+.bg-primary {
+  background: #F1ADBF;
+  color: #681421;
+}
+/* PASO 9 Información Principal */
+
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('../imagenes/dance-12.jpg') no-repeat center center/cover;
+  min-height: 100%;/* segunda imagen */
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px
+}
+/*PASO 11*/
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+/* PASO 13---*/
+.clr {
+  clear: both;
+}
+
+/* Pie de página */
+
+#main-footer {
+  text-align: center;
+  background: #F24674;
+  color: #fff;
+  padding: 20px;
+}
+
+/*---- PASO 15*/
+.l-heading {
+  font-size: 20px;
+}
+
+/* Padding */
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+/* PASO 16*/
+/* Acerca de */
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 89%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 70%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* Testimonos */
+#testimonials {
+  height: 600px;
+  background: url('../imagenes/dance-10.jpg') no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+/* border-radius para obtener el efecto redondo de las imágenes */
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+
+
+/* Forma de Contacto */
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px #E12945 solid;
+}
+
+#contact-form textarea {
+  height: 160px;
+}
+
+
+/* La propiedad focus se presenta cuando el usuario selecciona un input en este caso el resultado será un cambio de color en el borde de los inputs y de los textarea al momento de seleccionarlos */
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #D84D62;
+}
